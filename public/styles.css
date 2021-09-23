@@ -1,0 +1,42 @@
+.form__container {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: start;
+    margin: 20px;
+    padding: 60px;
+    background-color: aliceblue;
+}
+
+input[type=text], input[type=tel], select, input[type=checkbox] {
+    margin: 5px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 4px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    color: rgba(0,0,0,.8);
+}
+
+input[type=text], input[type=tel], label {
+    width: 176px;
+}
+
+select {
+    width: 183px;
+}
+
+input[type=checkbox] {
+    width: 20px;
+}
+
+input[type=submit] {
+    margin: 5px;
+}
+
+label {
+    margin: 5px;
+    color: rgba(0,0,0,.8);
+}
